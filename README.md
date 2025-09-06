@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="https://pomodoro-clock-your-deploy.vercel.app/" target="_blank">
+    <img src="./public/logo.png" alt="Pomodoro Clock" width="200"/>
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Pomodoro Clock</h1>
 
-## Available Scripts
+<p align="center">
+  <a href="https://pomodoro-clock-your-deploy.vercel.app/" target="_blank">Live Demo</a> •
+  <a href="#project-description">Project Description</a> •
+  <a href="#features">Features</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#credits">Credits</a>
+</p>
 
-In the project directory, you can run:
+<img src="./public/sample.png" alt="Pomodoro Clock App Screenshot" align="center" width="auto" height="auto">
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Pomodoro Clock** is a productivity-focused web application based on the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique).  
+It allows users to manage work sessions and breaks with a customizable timer.
 
-### `npm test`
+Built with **React** and **useReducer**, it demonstrates state management, side effects with hooks, and responsive UI design.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🔗 [Live Demo](https://pomodoro-clock-your-deploy.vercel.app/)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Adjustable session and break lengths (1–60 minutes)
+- Start, stop, and reset controls
+- Automatic switch between work (session) and rest (break)
+- Audio notification when the timer reaches zero
+- Responsive layout for desktop and mobile screens
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Frontend**: React (Hooks, useReducer)
+- **Styling**: CSS
+- **Deployment**: Vercel
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/nca-gabriel/pomodoro-clock.git
+cd pomodoro-clock
+npm install
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage Start the development server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+bash
+npm run dev
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Credits - [Pomodoro technique icon](https://www.flaticon.com/free-icon/pomodoro-technique_14359179) created by [Iconjam](https://www.flaticon.com/authors/iconjam) — [Flaticon](https://www.flaticon.com/)
