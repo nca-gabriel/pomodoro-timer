@@ -59,9 +59,12 @@ npm install
 
 ---
 
-## Usage Start the development server:
+## Usage
 
-bash
+Start the development server:
+
+```bash
 npm run dev
+```
 
 ## Credits - [Pomodoro technique icon](https://www.flaticon.com/free-icon/pomodoro-technique_14359179) created by [Iconjam](https://www.flaticon.com/authors/iconjam) — [Flaticon](https://www.flaticon.com/)
